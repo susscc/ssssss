@@ -1,0 +1,69 @@
+/* This is a CSS file */
+/* This is a CSS file */
+/*.swiper-container {
+    width: 280px;
+    border-radius:20px;
+
+}
+.swiper-slide{
+    background-color: aqua; 
+    padding:180px 0;
+}*/
+/*header*/
+
+.hcbgcolor{
+  display: none;
+}
+
+
+/*main*/
+#result{
+  margin:0 auto;
+}
+table {
+  padding:20px 15px 20px 15px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #efefef;
+}
+th {
+ /* border: solid 1px #000000;*/
+ padding:8% 0 8% 0;
+ font-size: 250%;
+
+}
+.today{
+  color:#000000;
+  text-decoration:none;
+position: fixed;
+bottom:20%;
+left:10%;
+}
+.lastMonth{
+  position:fixed;
+  top:50%;
+  left:10%;
+  text-decoration:none;
+}
+.nextMonth{
+  position:fixed;
+  top:50%;
+  right:10%;
+  text-decoration:none;
+}
+.tdlink {
+  cursor: pointer;
+  padding: 5px 2px;
+  /* display: block;*/
+}/*
+.tdlink:hover {
+  background-color: #ff0000;
+}*/
+
+
+/*footer*/
+footer{
+  position: fixed;
+  bottom: 0;
+}

@@ -1,0 +1,62 @@
+/* This is a CSS file */
+/* input{
+  display: inline;
+} */
+.cancel{
+  float: left;
+}
+/* .date{
+  float: left;
+  display: inline;
+} */
+label {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height:20px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+}
+input[type="date"]{
+  position: relative;
+padding: 0 10px;
+  width: 150px;
+  height: 12px;
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #999;
+}
+input[type="date"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+input[type="date"]::-webkit-clear-button{
+  -webkit-appearance: none;
+  display: none;
+}
+/*label::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -43px;
+  width: 36px;
+  height: 36px;
+  background-color: #06c;
+  background-image: url("icon_calendar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  //background: rgba(255, 0, 0, 0.5); // 一旦背景色を付けて、見やすくします
+  color: transparent;
+  cursor: pointer;
+}*/

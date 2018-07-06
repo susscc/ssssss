@@ -1,0 +1,50 @@
+/* This is a CSS file */
+#cb-drag {
+  width:100%;
+  margin-bottom: 8px;
+  padding: 24px 0;
+  text-align: center;
+  background-color: #bfbfbf;
+
+}
+#cb-drag p {
+  font-size:50px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.4;
+ 
+}
+#cb-file {
+  position: relative;
+  top: -100px;
+  left: 50px;
+  font-size: 14px;
+  cursor: pointer;
+
+  border-radius: 14px;
+
+}
+#cb-display {
+  margin-bottom: 0;
+}
+#cb-display p {
+  margin-top: 8px;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+.cb-div {
+     width: 780px;
+    padding: 16px;
+    border: 1px solid #eee;
+    margin-bottom: 8px;
+    background-color: #fafafa;
+    top: -580px;
+}
+.cb-image {
+  cursor: pointer;
+  border: 4px solid #222;
+}
+input {
+  font-size: 30px;
+}
